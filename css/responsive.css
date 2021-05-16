@@ -1,0 +1,207 @@
+
+@media (max-width: 767px) { 
+	h1{
+		font-size: 38px;
+	}
+	.nav-item:after{
+		display: none;
+	}
+	.nav-item::before {
+		position: absolute;
+		display: block;
+		top: 15px;
+		left: 0;
+		width: 11px;
+		height: 1px;
+		content: "";
+		border: none;
+		background-color: #000;
+		vertical-align: 0;
+	}
+	.dropdown-toggle::after {
+		position: absolute;
+		display: block;
+		top: 10px;
+		left: -23px;
+		width: 1px;
+		height: 11px;
+		content: "";
+		border: none;
+		background-color: #000;
+		vertical-align: 0;
+		transition: all 200ms linear;
+	}
+	.dropdown-toggle[aria-expanded="true"]::after{
+		transform: rotate(90deg);
+		opacity: 0;
+	}
+	.dropdown-menu {
+		padding: 0 !important;
+		background-color: transparent;
+		box-shadow: none;
+		transition: all 200ms linear;
+	}
+	.dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
+		margin-top: 10px !important;
+		margin-bottom: 20px !important;
+	}
+	body.dark .nav-item::before {
+		background-color: #fff;
+	}
+	body.dark .dropdown-toggle::after {
+		background-color: #fff;
+	}
+	body.dark .dropdown-menu {
+		background-color: transparent;
+		box-shadow: none;
+	}
+}
+
+@media (max-width: 576px) { 
+   .top-info {
+	   display: none;
+   }
+
+
+ }
+
+
+
+
+@media (max-width: 767.98px) { 
+     .top-right {
+		 display: block;
+		 margin: 0 auto;
+	 }
+	 .navbar-brand img {
+		 height: 47px;
+	 }
+	 .content-box {
+		padding: 220px 0 50px 0;
+	 }
+	 .content-box h1 {
+		 font-size: 25px;
+	 }
+	 .btn-start,.btn-course,.btn-style-three,.btn-pink {
+		 font-size: 13px;
+		 padding: 10px 27px 10px;
+	 }
+	 .image-layer img {
+		height: 150px;
+		margin: 0 auto;
+		display: block;
+	 }
+	 .search-box-container {
+		 padding: 8px 3px;
+	 }
+	 .search-box {
+		 padding: 0px 10px;
+	 }
+	 .banner-section .search-box .form-group input[type="search"] {
+		padding: 10px 4px 10px 25px;
+	 }
+	 .search-box .form-group button {
+		position: absolute;
+		right: 0px;
+		top: 8px;
+		height: 45px;
+		width: 47px;
+		display: block;
+		font-size: 16px;
+	}
+	.education-section .patern-layer-two {
+		top: 0;
+	}
+	.inner-col img {
+		display: none;
+	}
+	.education-section,.course-section {
+		padding: 0;
+	}
+	.education-section .text-col h2 {
+		font-size: 27px;
+	}
+	.course-section .title-col .inner-col {
+		padding-top: 5px;
+	}
+	.sec-title h2 {
+		font-size: 27px;
+	}
+	.sec-title .text {
+		font-size: 14px;
+	}
+    .inner-box .text {
+		font-size: 14px;
+	}
+	.course-title {
+		font-size: 16px;
+	}
+	.type-col .inner {
+		margin: 20px 10px 10px 10px;
+	}
+	.news-section {
+		padding: 20px 0 20px;
+	}
+	.options-section .text {
+		font-size: 14px;
+	}
+	.text{
+		font-size: 14px;
+	}
+	.links-widget h4 {
+		font-size: 21px;
+	}
+	.links-content a {
+		font-size: 14px;
+	}
+	.start-header.scroll-on .navbar-brand img {
+		height: 40px;
+	}
+	.navbar-toggler-icon:before,.navbar-toggler-icon:after {
+		background-color: white!important;
+	}
+	.navbar-light .navbar-toggler-icon {
+		border-bottom: 1px solid white;
+	}
+	.nav-item::before {
+       background-color: white;
+	}
+	.dropdown-toggle::after {
+		background-color: white;
+	}
+	.start-style .navbar-collapse{
+		background: rgb(12, 100, 144);
+	}
+    .dropdown-item {
+		text-align: center;
+		color: white;
+
+	}
+	.logo img {
+		height: 48px;
+	}
+	
+ }
+
+
+@media (max-width: 991.98px) { 
+	.inner-col img {
+		display: none;
+	}
+	.image-layer img {
+		height: 220px;
+		margin: 0 auto;
+		display: block;
+	 }
+	 .footer-section .logo-widget {
+		margin-top: 9px;
+	}
+ }
+
+
+@media (max-width: 1199.98px) { 
+
+ }
+
+
+

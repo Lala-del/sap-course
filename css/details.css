@@ -1,0 +1,298 @@
+.most-courses {
+    padding: 80px 0;
+}
+
+.info-tabs-inner .tab-btns {
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.tab-btn {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    background: none;
+    color: #626262;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: 12px 40px 10px;
+    text-transform: capitalize;
+    transition: all 500ms ease;
+    display: inline-block;
+}
+
+.tab-btns .tab-btn.active-btn {
+    color: #ffffff;
+    background: #00ab15;
+}
+
+.tab-col {
+    padding: 28px 0px;
+}
+
+.tabs-content {
+    position: relative;
+    padding: 30px 0px 25px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.course-overview .inner-box-course h4 {
+    position: relative;
+    color: #03382e;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: start;
+}
+
+.inner-box-course {
+    position: relative;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+
+.course-overview .inner-box-course {
+    position: relative;
+    padding: 0px 40px 40px;
+}
+
+.course-overview .inner-box-course p {
+    position: relative;
+    color: #626262;
+    font-size: 16px;
+    line-height: 1.8em;
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+.review-list {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.review-list li {
+    display: inline-block;
+}
+
+.review-list li {
+    position: relative;
+    color: #393939;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 500;
+    line-height: 1.3em;
+    margin-right: 80px;
+    display: inline-block;
+    list-style: disc;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+
+.requirement-list li {
+    position: relative;
+    color: #393939;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 8px;
+    line-height: 1.3em;
+    margin-left: 12px;
+    margin-right: 80px;
+    display: inline-block;
+    list-style: disc;
+    margin-bottom: 10px;
+}
+
+.review-list span {
+    color: #00ab15;
+}
+
+.course-overview  h3 {
+    position: relative;
+    color: #03382e;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 18px;
+}
+
+.requirement-list li:before {
+    position: absolute;
+    content: "\f192";
+    left: -19px;
+    top: 2px;
+    color: #00ab15;
+    font-size: 14px;
+    line-height: 1em;
+    font-family: FontAwesome;
+}
+
+.review-list li::before {
+    position: absolute;
+    content: "\f058";
+    left: -19px;
+    top: 2px;
+    color: #00ab15;
+    font-size: 14px;
+    line-height: 1em;
+    font-family: FontAwesome;
+}
+
+
+
+.teacher-block .block-inner .image {
+    position: relative;
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 15%);
+}
+
+
+
+.teacher-block .block-inner h2 {
+    position: relative;
+    color: #03382e;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-top: 30px;
+}
+
+.teacher-block .block-inner .text {
+    position: relative;
+    color: #626262;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.teacher-block .block-inner .social-box a {
+    position: relative;
+    color: #626262;
+    font-size: 28px;
+    margin: 0px 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.circle-one {
+    position: absolute;
+    left: 4%;
+    top: 70%;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #ffbfbe;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#accordion {
+    width: 500px;
+    min-height: 30px;
+    box-shadow: 0px 0px 10px silver;
+    border-radius: 10px;
+}
+.list {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-bottom: solid 1px silver;
+    cursor: pointer;
+    transition: 300ms;
+}
+.list:hover {
+    background: hsl(0, 0%, 95%);
+}
+.accordion_title {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.accordion_icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: blue;
+}
+.panel {
+    transition: 300ms;
+    width: 100%;
+    height: 0px;
+    background: hsl(0, 0%, 94%);
+    overflow: hidden;
+}
+.panel p {
+    padding: 10px;
+} 
+
+.inner-column-side {
+    margin-top: 60px;
+    padding: 7px 7px 42px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.price {
+    position: relative;
+    display: block;
+    margin-top: 50px;
+    font-weight: 700;
+    color: #03382e;
+    font-size: 36px;
+    text-align: center;
+}
+
+.time-left {
+    position: relative;
+    color: #626262;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 32px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.inner-column-side::before {
+    position: absolute;
+    content: '';
+    right: -50px;
+    bottom: -50px;
+    width: 110px;
+    height: 110px;
+    z-index: -1;
+    border-radius: 50%;
+    background-color: #8adac8;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.sidebar-side .inner h4 {
+    font-size: 15px;
+}
